@@ -2,7 +2,7 @@
   "expo": {
     "name": "IRABANK PAY BUSINESS",
     "slug": "irabank_business",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -24,7 +24,9 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       },
-      "package": "com.irabank.business"
+      "package": "com.irabank.business",
+      "versionCode":2,
+      "permissions":["Camera","READ_EXTERNAL_STORAGE","WRITE_EXTERNAL_STORAGE","INTERNET","SYSTEM_ALERT_WINDOW","VIBRATE"]
     },
     "web": {
       "favicon": "./assets/favicon.png"
